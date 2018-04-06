@@ -1,0 +1,108 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.area-select div:nth-child(even){
+  padding-left: 0px;
+}
+
+.area-select div:nth-child(odd){
+  padding-right: 0px;
+}
+
+.area-select div {
+
+}
+
+.logo > div {
+
+}
+
+.ad-event > div {
+  padding: 3rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+
+.ad-event  .box-item {
+  border: 1px solid #d5d4d4;
+  border-radius: 4px;
+  height: 10vh;
+}
+
+.ad-event .item-left {
+  padding-left: 3vw;
+  padding-top: 2.7vh;
+}
+
+.ad-event .item-right {
+  padding-left: 0;
+  padding-top: 1.6vh;
+  padding-right: 1vw;
+}
+
+.ad-event .item-right > p {
+  font-size: 3vw;
+  letter-spacing: -1px;
+  color: #868686;
+  margin-bottom: 0;
+}
+
+.ad-event .item-right > a{
+  font-size: 20%;
+  letter-spacing: -1px;
+  color: #b3b3b3;
+}
+
+.ad-event .right-box {
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+
+.recent-hotel .item {
+  border:1px solid #cfcaca;
+}
+
+.recent-hotel .item p {
+  margin-bottom: 0;
+}
+
+
+.recent-hotel .item .caption  .caption-text {
+  padding-left: 1vw;
+}
+
+.recent-hotel .item .caption  .caption-text  p {
+  margin-bottom: 0;
+  font-size: 2.5vw;
+}
+
+.hotel-list {
+   margin: 0;
+}
+.hotel-list > div {
+  padding: 0;
+}
+
+.hotel-list .panel {
+  font-size: 2vw;
+  letter-spacing: -1px;
+  line-height: 4.5vw;
+  color: #585857;
+}
+
+.hotel-list .panel .panel-body{
+  padding: 1vw 3vw;
+}
+
+.hotel-list .panel .panel-body p strong{
+  font-size: 3.5vw;
+}
+
+.hotel-list .panel .panel-footer .btn{
+  font-size: 3vw;
+  font-weight: bold;
+  border: 2px solid #000000;
+  border-radius: 0;
+}
