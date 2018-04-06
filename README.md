@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-# hotel-mobile
-mobile web publishing
-=======
-mjung
->>>>>>> init
+hotel front publishing page
