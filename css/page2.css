@@ -1,0 +1,18 @@
+#hotel-list .title {
+  font-size: 4vw;
+  padding: 0;
+}
+
+#hotel-list .title .text {
+  line-height: 10vw;
+  background: #fdfdf1;
+}
+
+#hotel-list .title .text i {
+  float: right;
+  line-height: 10vw;
+}
+
+h4 {
+  font-size: 4vw;
+}
