@@ -1,5 +1,6 @@
 .footer .functions {
-  /* font-size: 1vw; */
+    padding-top: 1vw;
+    margin: 1vw;
 }
 
 .footer .functions div {
@@ -10,7 +11,7 @@
 }
 
 .footer .functions div i{
-    font-size: 9vw;
+    font-size: 6vw;
 }
 
 .footer .functions div p{
@@ -20,4 +21,9 @@
 
 .padding {
     height: 4vw;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }

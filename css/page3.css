@@ -1,0 +1,54 @@
+.hotel-list {
+  position: relative;
+}
+/* Bottom right text */
+.bottom-text-block {
+    position: absolute;
+    padding-left: 10px;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    background: #3333333b;
+    color: white;
+}
+
+.bottom-text-block .name{
+    letter-spacing: -1px;
+    font-size: 3.5vw;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.bottom-text-block .info{
+    letter-spacing: -1px;
+    font-size: 3.5vw;
+    margin-bottom: 5px;
+}
+
+.bottom-right-text-block{
+    position: absolute;
+    padding-right: 10px;
+    right: 15px;
+    bottom: 0px;
+    background: #3333333b;
+    color: white;
+}
+
+.bottom-right-text-block .fake-price{
+    line-height: 1vw;
+    float: right;
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.bottom-right-text-block .real-price{
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.img-wrapper {
+    height: 45vw;
+}
