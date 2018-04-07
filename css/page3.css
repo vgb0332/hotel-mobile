@@ -1,6 +1,7 @@
 .hotel-list {
   position: relative;
 }
+
 /* Bottom right text */
 .bottom-text-block {
     position: absolute;
@@ -25,6 +26,16 @@
     letter-spacing: -1px;
     font-size: 3.5vw;
     margin-bottom: 5px;
+}
+
+.top-right-text-block {
+    width: 11vw;
+    height: 11vw;
+    background: #ffffff;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    -webkit-mask-box-image: url("../img/hotel-logo.png");
 }
 
 .bottom-right-text-block{
