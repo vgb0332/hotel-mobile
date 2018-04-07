@@ -20,45 +20,54 @@ img {
 }
 
 .ad-event > div {
-  padding: 3rem;
-  padding-left: 4rem;
-  padding-right: 2rem;
+  padding: 6vw;
 }
 
-.ad-event  .box-item {
-  border: 1px solid #d5d4d4;
-  border-radius: 4px;
-  height: 10vh;
-}
-
-.ad-event .item-left {
-  padding-left: 3vw;
-  padding-top: 2.7vh;
-}
-
-.ad-event .item-right {
-  padding-left: 0;
-  padding-top: 1.6vh;
-  padding-right: 1vw;
-}
-
-.ad-event .item-right > p {
-  font-size: 3vw;
-  letter-spacing: -1px;
-  color: #868686;
-  margin-bottom: 0;
-}
-
-.ad-event .item-right > a{
-  font-size: 20%;
-  letter-spacing: -1px;
-  color: #b3b3b3;
+.ad-event .left-box{
+  padding-left: 10vw;
+  padding-right: 8vw;
 }
 
 .ad-event .right-box {
-  padding-left: 3rem;
-  padding-right: 4rem;
+  padding-left: 8vw;
+  padding-right: 10vw;
 }
+
+.ad-event .box-item {
+  border: 1px solid #d5d4d4;
+  border-radius : 7px;
+  height: 20vw;
+}
+
+.ad-event .box-item .item-left{
+  padding: 0;
+  text-align: center;
+  line-height: 22vw;
+}
+
+.ad-event .box-item .item-left i {
+  font-size: 7vw;
+  color: green;
+}
+
+.ad-event .box-item .item-right{
+  padding: 0;
+  padding-top: 3.5vw;
+}
+
+.ad-event .box-item .item-right p {
+  font-size: 2.5vw;
+  color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 1vw;
+}
+
+.ad-event .box-item .item-right a {
+  font-size: 2vw;
+  color: #989797;
+  margin-bottom: 0;
+}
+
 
 .recent-hotel .item {
   border:1px solid #cfcaca;
