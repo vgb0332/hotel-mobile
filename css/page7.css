@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/hotel-sample2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.absolute {
+  position: absolute;
+  top:0;
+  left:0;
+}
+.container .row {
+  padding: 3vw;
+}
+
+.container .row .wrapper {
+  width: 100%;
+  background: #ffffff;
+}
+.container .row .wrapper .header {
+  font-size: 6vw;
+  color: black;
+  letter-spacing: -1px;
+  padding: 2vw;
+}
+
+.container .row .wrapper .body1 div,
+.body2 div,
+.body3 div {
+  background : #f2efef;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding: 3vw;
+  font-size: 3.5vw;
+}
+
+.left {
+  font-weight: bold;
+  color: #000000;
+}
+
+.right {
+  color: #474444;
+}
