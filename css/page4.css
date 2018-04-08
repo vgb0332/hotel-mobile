@@ -6,6 +6,16 @@
   /* padding-right: 0px; */
 }
 
+.function-select .dropdown-menu {
+  background: #272727;
+}
+
+.function-select .dropdown-menu li a{
+  font-size: 3vw;
+  color: #dcdcdc;
+  letter-spacing: -1px;
+}
+
 .function-select .item {
   background : #272727;
   height: 14vw;

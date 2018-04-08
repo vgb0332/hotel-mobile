@@ -1,0 +1,126 @@
+.function-select div:nth-child(even){
+  /* padding-left: 0px; */
+}
+
+.function-select div:nth-child(odd){
+  /* padding-right: 0px; */
+}
+
+.function-select .dropdown-menu {
+  background: #272727;
+}
+
+.function-select .dropdown-menu li a{
+  font-size: 3vw;
+  color: #dcdcdc;
+  letter-spacing: -1px;
+}
+
+.function-select .item {
+  background : #272727;
+  height: 14vw;
+  padding: 5vw;
+  line-height: 5vw;
+}
+
+.function-select .item div span {
+  font-size: 3vw;
+  color: #dcdcdc;
+  letter-spacing: -1px;
+}
+
+.function-select .item div i {
+  font-size: 3vw;
+  float: right;
+  color: #dcdcdc;
+  padding-top: 1vw;
+}
+
+.zoom {
+  text-align: center;
+}
+
+.logo div {
+  padding: 0;
+}
+
+.available-room {
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+.available-room div {
+  padding-top: 4vw;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  height: 14vw;
+  background: #ffffff;
+  color: #6f6059;
+  border-top: 1px solid #6f6059;
+  border-bottom : 1px solid #6f6059;
+}
+
+.hotel-list {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hotel-list > div {
+  border: 1px solid #6f6059;
+}
+
+.hotel-list .header {
+  font-weight: bold;
+  font-size: 5.5vw;
+  color: #6f6059;
+}
+
+.hotel-list .body .img {
+  padding-right: 0;
+}
+
+.hotel-list .body .info {
+  font-size: 3.5vw;
+  color: #6f6059;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.hotel-list .body .info div {
+  padding-bottom: 1vw;
+}
+
+.hotel-list .body .info .detail {
+  text-align: center;
+  color: #ffffff;
+  background: #6f6059;
+  padding: 3vw;
+}
+
+.hotel-list .tail {
+  border-radius: 5px;
+  text-align: center;
+  font-size: 3.5vw;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hotel-list .tail .left {
+  border-radius: 5px 0px 0px 5px;
+  background: #272727;
+  color: #dcdcdc;
+  padding: 2vw;
+}
+
+.hotel-list .tail .right {
+  border-radius: 0px 5px 5px 0px;
+  background: #726f6f;
+  color: #dcdcdc;
+  padding: 0;
+  padding-top: 4vw;
+}
+
+.important {
+  color: red;
+  font-size: 5vw;
+}
