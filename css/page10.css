@@ -2,12 +2,27 @@
   padding: 0;
 }
 
+.padding-top {
+  padding-top: 30vw;
+}
+
 .nav-wrapper {
+  padding-top:1vw;
+  padding-bottom: 1vw;
   padding-left:15px;
   padding-right:15px;
   display: flex;
   background: #f6f6f6;
 }
+
+.title h1 {
+  font-size: 8vw;
+}
+
+.title h5 {
+  font-size: 3vw;
+}
+
 
 .nav-list {
   letter-spacing: -1px;
@@ -16,6 +31,10 @@
   width: 20%;
   height: 8vw;
   line-height: 8vw;
+}
+
+.nav-list a {
+  color: #000000;
 }
 
 .info {
@@ -199,5 +218,5 @@ h4 {
 .way {
   text-align: center;
   padding: 4vw;
-  
+
 }

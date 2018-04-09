@@ -33,30 +33,31 @@
 
   <body>
 
-    <div class="container-fluid" style="padding:0;">
-      <div class="col-12" style="text-align:center;">
+    <div class="container-fluid fixed-top" style="height:25vw;background:#ffffff;padding:0;">
+      <div class="col-12 title" style="text-align:center;">
         <h1>HOUND HOTEL</h1>
         <h5>BUSAN, GWANG AN</h5>
       </div>
       <div class="col-12 nav-wrapper">
-        <div class="nav-list" href="#home">
-          <span>홈</span>
-        </div>
-        <div class="nav-list" href="#hotel-info">
-          <span>호텔정보</span>
+        <div class="nav-list">
+          <a href="#">홈</a>
         </div>
         <div class="nav-list">
-          <span>객실</span>
+          <a href="#hotel-info">호텔정보</a>
         </div>
         <div class="nav-list">
-          <span>주변정보</span>
+          <a href="#room">객실</a>
         </div>
         <div class="nav-list">
-          <span>예약</span>
+          <a href="#around">주변정보</a>
+        </div>
+        <div class="nav-list">
+          <a href="#reserve">예약</a>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="padding-top"></div>
+    <div class="container-fluid" id="hotel-info">
       <div class="row">
         <div class="col-12" id="home">
           <img src="img/hotel-sample1.jpg" class="" alt="더블유디자인호텔">
@@ -131,7 +132,7 @@
       </div>
       <div class="padding"></div>
       <div class="padding"></div>
-      <div class="row hotel-description">
+      <div class="row hotel-description" id="room">
         <div class="col-12 hotel-description-label">
           <span>객실 구성</span>
         </div>
@@ -165,7 +166,7 @@
     </div>
     <div class="padding"></div>
     <div class="padding"></div>
-    <div class="container-fluid hotel-info-dropdown">
+    <div class="container-fluid hotel-info-dropdown" id="around">
       <div id="info-dropdown" class="row">
         <h3 class="title"><div class="text"> &nbsp;&nbsp;BASIC<i class="fas fa-plus"></i></div></h3>
         <div>
@@ -228,7 +229,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="reserve">
         <div class="col-6" style="padding-right:0;">
           <img src="img/sample1.png" class="" alt="더블유디자인호텔">
 
