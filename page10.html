@@ -18,6 +18,7 @@
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -78,14 +79,10 @@
         <div class="col-12 location-text">
           <h4>광안리가 보인다</h4>
           <h6>location info</h6>
-          <div class="padding"><div>
-          <div class="padding"><div>
+          <div class="padding"></div>
+          <div class="padding"></div>
         </div>
-
-
       </div>
-
-
 
       <div class="row">
         <div class="col-12 location-title">
@@ -98,22 +95,170 @@
         <div class="col-12 location-text">
           <h4>광안리가 보인다</h4>
           <h6>location info</h6>
-          <div class="padding"><div>
-          <div class="padding"><div>
+          <div class="padding"></div>
+          <div class="padding"></div>
         </div>
       </div>
-
-
-      <div class="row logo2" id="hotel-info">
-
-        <div class="col-12">
-          <img src="img/footer_logo.png" class="img-rounded" alt="더블유디자인호텔">
+      <div class="row">
+        <div class="col-12 location-title">
+          <h4 style="color:brown;">광안리가 보인다</h4>
+          <h6>location</h6>
+        </div>
+        <div class="col-12 location-info">
+          <img src="img/sample1.png" class="img-circle" alt="더블유디자인호텔">
+        </div>
+        <div class="col-12 location-text">
+          <h4>광안리가 보인다</h4>
+          <h6>location info</h6>
+          <div class="padding"></div>
+          <div class="padding"></div>
         </div>
       </div>
     </div>
 
+    <div class="container">
+      <div class="row hotel-description">
+        <div class="col-12 hotel-description-label">
+          <span>호텔서비스 구성</span>
+        </div>
+        <div class="col-12 padding"></div>
+        <div class="col-12 hotel-description-content">
+          <img src="img/sample1.png" class="" alt="더블유디자인호텔">
+        </div>
+        <div class="col-12 hotel-description-footer">
+          <span>발렛파킹(Valet parking)</span>
+        </div>
+      </div>
+      <div class="padding"></div>
+      <div class="padding"></div>
+      <div class="row hotel-description">
+        <div class="col-12 hotel-description-label">
+          <span>객실 구성</span>
+        </div>
+        <div class="col-12 padding"></div>
+        <div class="col-12 hotel-description-content">
+          <p>lcdtv, 헤어드라이, 면도기, 칫솔셋트...</p>
+          <p style="font-weight:bold;">*모든 고객의 편안한</p>
+          <p style="font-weight:bold;">
+            * 제공 서비스
+            <ul style="list-style-type: none;">
+              <li>-24시간 컨시지어시스템</li>
+              <li>-24시간 컨시지어시스템</li>
+              <li>-24시간 컨시지어시스템</li>
+              <li>-24시간 컨시지어시스템</li>
+            </ul>
+
+          </p>
+        </div>
+        <div class="padding"></div>
+        <div class="padding"></div>
+
+        <div class="col-12 hotel-description-label">
+          <span>호텔 영상</span>
+        </div>
+        <div class="col-12 padding"></div>
+        <div class="col-12 hotel-description-content">
+          <img src="img/sample1.png" class="" alt="더블유디자인호텔">
+        </div>
+
+      </div>
+    </div>
+    <div class="padding"></div>
+    <div class="padding"></div>
+    <div class="container-fluid hotel-info-dropdown">
+      <div id="info-dropdown" class="row">
+        <h3 class="title"><div class="text"> &nbsp;&nbsp;BASIC<i class="fas fa-plus"></i></div></h3>
+        <div>
+          <p>BASIC</p>
+        </div>
+        <h3 class="title"><div class="text"> &nbsp;&nbsp;PENT HOUSE<i class="fas fa-plus"></i></div></h3>
+        <div>
+          <p>PENT HOUSE</p>
+        </div>
+        <h3 class="title"><div class="text"> &nbsp;&nbsp;PENT HOUSE<i class="fas fa-plus"></i></div></h3>
+        <div>
+          <p>BASIC</p>
+        </div>
+        <h3 class="title"><div class="text"> &nbsp;&nbsp;PENT HOUSE<i class="fas fa-plus"></i></div></h3>
+        <div>
+          <p>PENT HOUSE</p>
+        </div>
+        <h3 class="title"><div class="text"> &nbsp;&nbsp;PENT HOUSE<i class="fas fa-plus"></i></div></h3>
+        <div>
+          <p>PENT HOUSE</p>
+        </div>
+        <div class="padding"></div>
+        <div class="padding"></div>
+
+      </div>
+
+      <script>
+        $( function() {
+
+          $( "#info-dropdown" ).accordion({
+            animate: 200,
+            collapsible: true,
+            active: false,
+            // activate: function(event, ui) {
+            //   var newHeader= $(ui.newHeader);
+            //   var oldHeader = $(ui.oldHeader);
+            //
+            //   if(newHeader.find(".text i").hasClass('fa-sort-down')){
+            //     newHeader.find(".text i").removeClass('fa-sort-down').addClass('fa-sort-up');
+            //   }
+            //
+            //   if(oldHeader.find(".text i").hasClass('fa-sort-up')){
+            //     oldHeader.find(".text i").removeClass('fa-sort-up').addClass('fa-sort-down');
+            //   }
+            // }
+          });
 
 
+          $('#hotel-list .title').off('click')
+                                 .click(function(){
+                                     $(this).next().toggle('fast');
+                                 });
+        } );
+      </script>
+
+      <div class="dropdown-img">
+        <img src="img/sample1.png" class="" alt="더블유디자인호텔">
+        <div class="view-btn">
+          <span>VIEW</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6" style="padding-right:0;">
+          <img src="img/sample1.png" class="" alt="더블유디자인호텔">
+
+        </div>
+        <div class="col-6" style="padding-left:0;">
+          <img src="img/sample2.png" class="" alt="더블유디자인호텔">
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12  way">
+          <h3>호텔 찾아가기</h3>
+          <h6>지하철/버스/택시</h6>
+        </div>
+
+        <div class="col-12  way">
+          <div id="map" style="width:100%;height:80vw;margin-bottom:2vh;"></div>
+        </div>
+
+        <div class="col-12  way">
+          <img src="img/way.png" class="" alt="더블유디자인호텔">
+        </div>
+
+        <div class="col-12">
+          <img src="img/footer_logo.png" class="img-rounded" alt="더블유디자인호텔" style="width:100%;">
+        </div>
+      </div>
+    </div>
 
 
     <div class="footer-padding"> </div>
