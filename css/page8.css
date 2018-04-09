@@ -1,0 +1,22 @@
+.logo .col-12 {
+  padding: 0;
+}
+
+.logo2 .col-12{
+  padding: 0;
+}
+
+.pic-8 > div {
+  width: 25%;
+}
+
+.pic-main .col-12 {
+  padding: 0;
+}
+
+.pic-main .pic-info {
+  padding-top: 1vw;
+  padding-left: 4vw;
+  padding-bottom: 4vw;
+  background: #eaeaea;
+}

@@ -1,0 +1,25 @@
+.col-12 {
+  padding: 0;
+}
+
+.info {
+  padding-top: 1vw;
+  padding-left: 4vw;
+  padding-bottom: 4vw;
+  background: #eaeaea;
+}
+
+.view {
+  text-align: center;
+}
+
+.view a {
+  font-size: 6vw;
+  font-weight: bold;
+  border: 2px solid #6f6059;
+  color: #6f6059;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}

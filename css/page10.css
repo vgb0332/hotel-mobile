@@ -1,0 +1,57 @@
+.col-12 {
+  padding: 0;
+}
+
+.nav-wrapper {
+  padding-left:15px;
+  padding-right:15px;
+  display: flex;
+  background: #f6f6f6;
+}
+
+.nav-list {
+  letter-spacing: -1px;
+  font-size: 3vw;
+  text-align: center;
+  width: 20%;
+  height: 8vw;
+  line-height: 8vw;
+}
+
+.info {
+  padding: 3vw;
+  text-align: center;
+}
+.location-title {
+  text-align: center;
+}
+.location-info {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 0;
+  padding-bottom: 5vw;
+  text-align: center;
+}
+
+.location-text {
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  margin-top: 5px;
+  letter-spacing: -1px;
+}
+
+h4 {
+  margin-top: 5px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
