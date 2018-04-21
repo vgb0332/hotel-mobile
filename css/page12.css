@@ -1,0 +1,252 @@
+.my-page .header {
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 7vw;
+}
+
+.my-page .header span {
+  display: block;
+}
+
+.my-page .header span:nth-child(1) {
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.my-page .header span:nth-child(2) {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: #ababab;
+  line-height: .7vw;
+
+}
+
+#change-info {
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-size: 3.5vw;
+  color: #ababab;
+  letter-spacing: -.7px;
+}
+
+.title {
+  font-size: 4.5vw;
+  padding: 2vw;
+  font-weight: bold;
+}
+.client-info-content .content{
+  padding: 2vw;
+  letter-spacing: -.7px;
+  font-size: 4vw;
+}
+
+.client-info-content .content .content-row {
+  padding-bottom: 1vw;
+}
+
+.client-info-content .content .content-row span:nth-child(1){
+  text-align: left;
+  color: #ababab;
+}
+
+.client-info-content .content .content-row span:nth-child(2){
+  float: right;
+}
+
+.points {
+  display: flex;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.points .my-point{
+  flex: 0 0 45%;
+  padding-top:5vw;
+}
+
+.points .my-point span:nth-child(1){
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.points .my-point span:nth-child(2){
+  display: block;
+  font-weight: bold;
+  font-size: 9vw;
+  color: red;
+}
+
+.points .slash{
+  font-size: 20vw;
+  flex: 0 0 10%;
+}
+
+.points .my-level{
+  flex: 0 0 45%;
+  padding-top:5vw;
+}
+
+.points .my-level span:nth-child(1){
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.points .my-level span:nth-child(2){
+  display: block;
+  font-weight: bold;
+  font-size: 7vw;
+  color: #a97764;
+}
+
+.reservation {
+  padding-bottom: 6vw;
+}
+
+.reservation .list {
+  padding-top: 2vw;
+}
+
+.reservation .title {
+  font-size: 4.5vw;
+  padding: 2vw;
+  font-weight: bold;
+}
+
+.reservation .list-wrapper{
+  display: flex;
+}
+
+.reservation .list-wrapper .index {
+  flex: 0 0 7%;
+  background: #d9d3c7;
+  text-align: center;
+}
+
+.reservation .list-wrapper .content {
+  flex: 0 0 93%;
+  background: #f5f5f5;
+}
+
+.reservation .list-wrapper .content > span {
+  font-size: 4.5vw;
+  font-weight: bold;
+  letter-spacing: -.7px;
+}
+
+.reservation .list-wrapper .content .content-body {
+  padding: 2vw;
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+.reservation .list-wrapper .content .content-body .item{
+  padding-bottom: 1vw;
+}
+
+.reservation .list-wrapper .content .content-body .item span:nth-child(1){
+  color: #ababab;
+}
+
+.reservation .list-wrapper .content .content-body .item span:nth-child(2){
+  float: right;
+  text-align: right;
+}
+
+.reservation .bottom {
+  font-size: 3vw;
+  font-weight: bold;
+  display: flex;
+}
+.reservation .bottom .left{
+  margin-right: 1vw;
+  color: red;
+}
+.reservation .bottom .right{
+  margin-left: 1vw;
+}
+
+.reservation .bottom .left, .right{
+  width: 50%;
+  background: #f5f5f5;
+  text-align: center;
+  padding: 1vw 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.list-pagination {
+  margin-top: 1vw;
+  font-size: 3.5vw;
+  text-align: right;
+  font-weight: bold;
+  color: #ababab;
+}
+
+.list-pagination span {
+  margin-right: 0.3vw;
+}
+
+.list-pagination .active {
+  color: #000000;
+}
+
+.shop table {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  color: #ababab;
+  letter-spacing: -.5px;
+}
+
+.shop table tr:nth-child(1){
+  border: 1px solid #ababab;
+}
+
+.shop table tr:nth-child(1) th{
+  border-right: 1px solid #ababab;
+}
+
+.shop table tr th, td{
+  font-size: 3vw;
+  padding: .8vw;
+  height: 10vw;
+  border-bottom: 1px solid #ababab;
+}
+
+.shop table tr th{
+  font-size: 3vw;
+  text-align: center;
+}
+
+.cancel {
+  color: #e3cbc9;
+}
+
+.event table {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  color: #ababab;
+  letter-spacing: -.5px;
+}
+
+.event table tr:nth-child(1){
+  border: 1px solid #ababab;
+}
+
+.event table tr:nth-child(1) th{
+  border-right: 1px solid #ababab;
+}
+
+.event table tr th, td{
+  font-size: 3vw;
+  padding: .8vw;
+  height: 10vw;
+  border-bottom: 1px solid #ababab;
+}
+
+.event table tr th{
+  font-size: 3vw;
+  text-align: center;
+}
