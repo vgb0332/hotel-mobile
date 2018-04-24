@@ -1,11 +1,26 @@
+/**
 @import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
 @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+**/
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 body {
   /* font-family: 'Jeju Myeongjo', serif; */
   /* font-family: 'KoPub Batang', serif; */
   /* font-family: 'Nanum Myeongjo', serif; */
+  font-family: 'Nanum Gothic', serif;
   bottom: 50px;
+  border-radius: 0px !important;
+}
+
+.container-fluid{
+  padding: 0px !important
+}
+
+.img-rounded{
+  border-radius: 0px !important;
 }
 
 .footer-padding {

@@ -50,10 +50,11 @@
 
 .bottom-right-text-block .fake-price{
     line-height: 0;
-    margin-bottom:0.5vw;
+    margin-bottom: 6px;
     float: right;
     font-size: 2.5vw;
-    margin: 0;
+    color : #eaeaea;
+
 }
 
 .bottom-right-text-block .real-price{
