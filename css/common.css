@@ -15,8 +15,17 @@ body {
   border-radius: 0px !important;
 }
 
+.row {
+  margin: 0 !important;
+}
+
+/* .col-12 {
+  padding: 0 !important;
+} */
+
 .container-fluid{
-  padding: 0px !important
+  padding: 0px !important;
+  overflow: auto;
 }
 
 .img-rounded{
