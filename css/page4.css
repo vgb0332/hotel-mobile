@@ -54,8 +54,8 @@
   color: #ffffff;
 }
 .picture-list {
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 .picture-list div {
   padding: 0.8vw 0vw;
@@ -78,6 +78,7 @@
 }
 
 .hotel-description-content p {
+  padding-left: 3vw;
   padding-top: 2vw;
   color: #6f6059;
   font-size: 3.5vw;
